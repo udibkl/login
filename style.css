@@ -1,0 +1,69 @@
+*{
+    background-image: url('momo.png');
+   padding: 0;
+   margin: 0;
+   
+
+}
+
+
+
+.box
+{
+   
+    
+    
+    position: absolute;
+margin-top: 210px;
+margin-left: 498px;
+padding-right: 10;
+padding: 74px;
+border-radius: 29px;
+align-content: center;
+  
+}
+
+
+span
+{
+   color:ivory;
+   
+}
+h1
+{
+
+    background-attachment: fixed;
+    font-family: 'Uchen', serif;
+    font-size: 37px;
+    color: ivory;
+    position: absolute;
+    left: 585px;
+    top: 136px;
+    
+}
+.textbox
+{
+    color: rgb(0, 255, 219);
+    radius:15px;
+    border-radius: 7px;
+}
+
+
+.button
+{
+    color: aliceblue;
+    border-radius: 20px;
+    align-content: center;
+    margin-top: 43px;
+margin-left: 79px;
+padding: 10px;
+
+}
+.username
+{
+
+}
+.password
+{
+    
+}
