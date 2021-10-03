@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css" class="css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login Form</title>
+    <link rel="icon" href="favicon.jpeg" type="image/jpeg">
+    <script src="validation.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Login Form</h1>
-    <div class="box">
-        <div class="usbox">
-            <span class="username"> Username</span>
-            <br>
-        <input type="text" name="username" class="textbox">
-    </div>
-        <br>
-        <br>
-        <br>
-        <div class="psbox">
-        <span class="password">Password</span>
-        <br>
-        <input type="password"  class="textbox">
-        <br>
+    <div class="main">
+    <div class="container">
+        <div class="left">
+            <h1>Github Login</h1>
+            <img src="git.jpeg" alt="" srcset="" id="image">
         </div>
-        <input type="submit" value="Sign-In" class="button">
-
+        <div class="right">
+            <div class="form">
+                <h1>welcome back</h1><br>
+                <h3>sign into your account</h3>
+                <input type="text" placeholder="Enter Username" title="username" id="username"><br>
+                <input type="password" placeholder="Enter Password" title="password" id="password"><br>
+                <button class="button" style="vertical-align:middle" onclick="validate()"><span>Login </span></button><br>
+                <p><a href="#">Forgot password?</a></p>
+                <p>Don't have an account?<a href="#">      Register here</a></p>
+            </div>
+            </div>
+        </div>
     </div>
-    
 </body>
 </html>
