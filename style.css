@@ -138,3 +138,8 @@ span {
     border: none;
     border-bottom: 2px solid;
 }
+
+#image 
+{
+    border-radius: 50%;
+}
