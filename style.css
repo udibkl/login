@@ -43,8 +43,6 @@ button {
     border-radius: 5px;
 }
 
-
-
 .left {
     width: 250px;
     height: 400px;
@@ -130,6 +128,9 @@ span {
     color: grey;
 }
 
+.container .right .form a:hover {
+    color: rgb(180, 21, 10) ;
+}
 #username,#password{
     padding:10px;
     border-radius: 5px;
